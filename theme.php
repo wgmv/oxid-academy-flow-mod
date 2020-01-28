@@ -4,7 +4,7 @@
  */
 $aTheme = array(
     'id'          => 'flow',
-    'title'       => 'Flow',
+    'title'       => 'Flow mod - Oxid Academy',
     'description' => 'Flow mod created with OxidAcademy',
     'thumbnail'   => 'theme.jpg',
     'version'     => '1.0.0',
