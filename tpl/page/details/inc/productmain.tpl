@@ -101,6 +101,18 @@
             [{* article number *}]
             [{block name="details_productmain_artnumber"}]
                 <span class="small text-muted">[{oxmultilang ident="ARTNUM" suffix="COLON"}] [{$oDetailsProduct->oxarticles__oxartnum->value}]</span>
+                [{if $oDetailsProduct->oxarticles__oxweight->value}]
+                    <div class="small text-muted">[{oxmultilang ident="OXWEIGHT" suffix="COLON"}] [{$oDetailsProduct->oxarticles__oxweight->value|replace:".":","}] kg</div>
+                [{/if}]
+                [{if $oDetailsProduct->oxarticles__oxlength->value}]
+                    <div class="small text-muted">[{oxmultilang ident="OXLENGTH" suffix="COLON"}] [{$oDetailsProduct->oxarticles__oxlength->value|replace:".":","}] m</div>
+                [{/if}]
+                [{if $oDetailsProduct->oxarticles__oxwidth->value}]
+                    <div class="small text-muted">[{oxmultilang ident="OXWIDTH" suffix="COLON"}] [{$oDetailsProduct->oxarticles__oxwidth->value|replace:".":","}] m</div>
+                [{/if}]
+                [{if $oDetailsProduct->oxarticles__oxheight->value}]
+                    <div class="small text-muted">[{oxmultilang ident="OXHEIGHT" suffix="COLON"}] [{$oDetailsProduct->oxarticles__oxheight->value|replace:".":","}] m</div>
+                [{/if}]
             [{/block}]
 
             [{* ratings *}]

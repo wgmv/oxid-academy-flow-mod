@@ -12,3 +12,8 @@ Excercise from Oxid Academy
         * Which part in the template?
         * Which variables are available?
         
+* Example 5.2:
+    * https://www.udemy.com/course/oxid-eshop-entwicklerschulung-basis/learn/lecture/17215026?start=2161
+    
+        `On the article details page below the article number we want to show weight, length, width, height if these values exist`
+        
