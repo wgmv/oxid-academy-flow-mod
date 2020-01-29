@@ -10,5 +10,5 @@ $aTheme = array(
     'version'     => '1.0.0',
     'author'      => 'wgmv',
     'parentTheme'    => 'flow',
-    'parentVersions' => ['3.3'],
+    'parentVersions' => ['3.3.0'],
 );
