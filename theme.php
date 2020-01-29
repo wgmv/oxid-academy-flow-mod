@@ -3,7 +3,7 @@
  * Theme Information
  */
 $aTheme = array(
-    'id'          => 'flow',
+    'id'          => 'oa-flow-mod',
     'title'       => 'Flow mod - Oxid Academy',
     'description' => 'Flow mod created with OxidAcademy',
     'thumbnail'   => 'theme.jpg',
