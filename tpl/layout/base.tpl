@@ -134,6 +134,7 @@
 
         [{block name="base_style"}]
             [{oxstyle include="css/styles.min.css"}]
+            [{oxstyle include="css/oa-flow-mod.css"}]
         [{/block}]
 
         [{block name="base_fonts"}]
