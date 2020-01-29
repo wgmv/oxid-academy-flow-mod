@@ -16,4 +16,8 @@ Excercise from Oxid Academy
     * https://www.udemy.com/course/oxid-eshop-entwicklerschulung-basis/learn/lecture/17215026?start=2161
     
         `On the article details page below the article number we want to show weight, length, width, height if these values exist`
-        
+    
+* Example 8.1
+    * https://www.udemy.com/course/oxid-eshop-entwicklerschulung-basis/learn/lecture/17215048?start=708
+    
+        `Create a shop role, role ident and use it in a template`    

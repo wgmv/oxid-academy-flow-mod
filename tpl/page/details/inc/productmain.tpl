@@ -5,6 +5,9 @@
 [{assign var="aVariantSelections" value=$oView->getVariantSelections()}]
 [{assign var="blFullwidth" value=$oViewConf->getViewThemeParam('blFullwidthLayout')}]
 
+[{oxhasrights ident="SHOWTESTSNIPPET"}]
+    This is the test snippet.
+[{/oxhasrights}]
 [{if $aVariantSelections && $aVariantSelections.rawselections}]
     [{assign var="_sSelectionHashCollection" value=""}]
     [{foreach from=$aVariantSelections.rawselections item=oSelectionList key=iKey}]
